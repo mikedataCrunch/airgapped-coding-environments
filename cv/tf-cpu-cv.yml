@@ -1,0 +1,23 @@
+name: tf-cpu-cv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - notebook
+  - scikit-learn
+  - scikit-image
+  - conda-forge::conda-pack
+  - huggingface::transformers
+  - pip
+  - pip:
+    - tensorflow-cpu
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - seaborn
+    - shiny
+    - mlflow
+    - dash
+    - Pillow
+    - albumentations

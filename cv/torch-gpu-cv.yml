@@ -1,0 +1,25 @@
+name: torch-gpu-cv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - scikit-image
+  - seaborn
+  - shiny
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - nvidia::pytorch-cuda=11.7
+  - huggingface::transformers
+  - ipykernel
+  - notebook
+  - conda-forge::conda-pack
+  - pip
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - mlflow
+    - dash
+    - albumentations

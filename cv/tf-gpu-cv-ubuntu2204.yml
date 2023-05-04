@@ -1,0 +1,26 @@
+name: tf-gpu-cv-ubuntu2204
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.*
+  - ipykernel
+  - notebook 
+  - scikit-learn
+  - scikit-image
+  - conda-forge::conda-pack
+  - huggingface::transformers
+  - conda-forge::cudatoolkit=11.8.0
+  - nvidia::cuda-nvcc=11.3.58
+  - pip
+  - pip:
+    - nvidia-cudnn-cu11==8.6.0.163
+    - tensorflow==2.12.*
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - seaborn
+    - shiny
+    - mlflow
+    - dash
+    - albumentations
+    - Pillow
