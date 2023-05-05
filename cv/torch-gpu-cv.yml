@@ -1,4 +1,4 @@
-name: torch-gpu-cv-0505
+name: torch-gpu-cv
 channels:
   - conda-forge
   - pytorch
