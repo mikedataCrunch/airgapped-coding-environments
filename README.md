@@ -1,4 +1,4 @@
-# coding-environments: a workflow for an airgapped set up
+# Airgapped env: Setting up coding environments without web access
 
 This repository contains configurations of `python=3.8` coding environments for deep learning with `tensorflow` and `pytorch` managed through `conda`.
 
