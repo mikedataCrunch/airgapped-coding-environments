@@ -29,9 +29,9 @@ Before we get started with the steps, make sure that you have the following:
 4. Look for the `<env_name>.tar.gz` tarball.
 5. Transfer `<env_name>.tar.gz` to the `dst` machine.
 6. `mkdir <env_name>` 
-7. Unpack to that directory: `tar -xzf <env_name>.tar.gz -C <env_name>
+7. Extract to that directory: `tar -xzf <env_name>.tar.gz -C <env_name>
 8. Activate the environment from the binary directory: `source ./<env_name>/bin/activate
-9. Use the environment
+9. Run `conda-unpack` to clean up the prefixes and set up scripts for activating and deactivating the environment
 10. Deactivate the environment: `source ./<env_name>/bin/deactivate`
 
 ## Additional info
